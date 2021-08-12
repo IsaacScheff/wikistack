@@ -1,4 +1,4 @@
-const Sequelize = require('sequelize');
+const Sequelize = require('sequelize'); // sequelize
 const db = new Sequelize('postgres://localhost:5432/wikistack', {
     logging: false
 });
